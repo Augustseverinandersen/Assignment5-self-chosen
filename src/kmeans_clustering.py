@@ -112,7 +112,7 @@ def top_keywords_dataframe(pred_labels, vectorizer, X_feats, name, clusters):
 def cluster_plot(corpus_cluster, name, features, clusters):
     print("Creating plot")
     plt.figure(figsize=(12, 7)) # Setting the plot size
-    plt.title("Speeches Tfidf", fontsize = "18") # Plot title
+    plt.title("Speech Clusters", fontsize = "18") # Plot title
     plt.xlabel("Dimension 1", fontsize = "18") # X-axis name 
     plt.ylabel("Dimension 2", fontsize = "18") # Y-axis name
     sns.scatterplot(data=corpus_cluster, x='x0', y='x1', hue='cluster', palette="viridis", style='Party', markers={'Democratic': 'd', 'Republican': 's'}) # Creating the scatterplot. 
