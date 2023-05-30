@@ -4,7 +4,7 @@ This is the self-chosen assignment for the exam in Language Analytics. I have ch
 
 This assignment will create scatterplots of the clusters and tables showing which keywords are in the clusters. This assignment aims to see how speeches given by either a Democratic or Republican president cluster.
 ## 5.2 Machine Specifications and My Usage
-All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The scripts were created with Coder Python 1.73.1 and Python version 3.9.2. 
+All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. The scripts were created with Coder Python 1.73.1 and Python version 3.9.2. I ran the scripts on 16 CPUs, and a total run time of three minutes. 
 ### 5.2.1 Perquisites
 To run the scripts, make sure to have Bash and Python3 installed on your device. The script has only been tested on Ucloud.
 ## 5.3 Contribution

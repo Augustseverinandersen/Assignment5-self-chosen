@@ -1,10 +1,8 @@
 # Importing data manipulation library
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns # Maybe remove
 import numpy as np
 import re
-import string # maybe removeeeeeeeeeeeeeeeeeeeeeeeee
 
 # Importing systems library
 import os
@@ -17,8 +15,6 @@ import argparse
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn import metrics
-from sklearn.decomposition import PCA # Removeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-
 
 
 def input_parse():
